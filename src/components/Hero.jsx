@@ -1,5 +1,6 @@
 import React from 'react'
 import Picture from '../../public/images/picture.png';
+import HeroImage from '../../public/images/hassan.jpeg';
 import Image from 'next/image';
 
 const Hero = () => {
@@ -36,8 +37,8 @@ const Hero = () => {
         <div className="relative flex justify-center flex-1">
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-b from-[#2a1454] to-[#8750f7] rounded-[30px] rotate-4 group-hover:rotate-0 transition-transform duration-500"></div>
-            <div className="relative max-h-[400px] max-w-[450px] lg:max-h-[450px] lg:max-w-[500px] bg-[#0f0715] rounded-[30px] overflow-hidden border-2 rotate-4 border-transparent w-[300px] h-[380px] md:w-[400px] md:h-[500px] group-hover:rotate-0 transition-transform duration-500">
-              <Image src={Picture} alt="Hero Image" layout="fill" objectFit="cover" />
+            <div className="relative max-h-[420px] max-w-[450px] lg:max-h-[470px] lg:max-w-[500px] bg-[#0f0715] rounded-[30px] overflow-hidden border-2 rotate-4 border-transparent w-[300px] h-[380px] md:w-[400px] md:h-[500px] group-hover:rotate-0 transition-transform duration-500">
+              <Image src={HeroImage} alt="Hero Image" layout="fill" objectFit="cover" />
             </div>
           </div>
         </div>
