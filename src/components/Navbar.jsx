@@ -35,8 +35,8 @@ const Navbar = () => {
                     <div className="w-12 h-12 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                         <img src="/images/logo.png" alt="logo" className="w-full h-full object-contain" />
                     </div>
-                    <a href="mailto:mail@gerolddesign.com" className="hidden sm:block text-[15px] font-bold text-white hover:text-[#8750f7] transition-colors">
-                        mail@gerolddesign.com
+                    <a href="mailto:mrhassanali667@gmail.com" className="hidden sm:block text-[15px] font-bold text-white hover:text-[#8750f7] transition-colors">
+                        mrhassanali667@gmail.com
                     </a>
                 </div>
 

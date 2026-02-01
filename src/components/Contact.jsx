@@ -81,7 +81,7 @@ const ContactSection = () => {
                         </div>
                         <div>
                             <p className="text-gray-400 text-sm">Email</p>
-                            <h4 className="text-lg font-bold hover:text-[#8750f7] transition-colors cursor-pointer">gerolddesign@mail.com</h4>
+                            <h4 className="text-lg font-bold hover:text-[#8750f7] transition-colors cursor-pointer">mrhassanali667@gmail.com</h4>
                         </div>
                     </div>
 
@@ -91,8 +91,8 @@ const ContactSection = () => {
                             <FaMapMarkerAlt size={18} />
                         </div>
                         <div>
-                            <p className="text-gray-400 text-sm">Address</p>
-                            <h4 className="text-lg font-bold leading-tight">Warne Park Street Pine, <br /> FL 33157, New York</h4>
+                            <p className="text-gray-400 text-sm">Location</p>
+                            <h4 className="text-lg font-bold leading-tight">Malir, Karachi, Pakistan</h4>
                         </div>
                     </div>
 

@@ -11,12 +11,12 @@ const Hero = () => {
 
         {/* Left Side: Content (Flex Item) */}
         <div className="space-y-4 flex-1">
-          <h3 className="text-2xl md:text-4xl font-bold tracking-tight">I am Gerold</h3>
+          <h3 className="text-2xl md:text-4xl font-bold tracking-tight">Hassan Ali</h3>
           <h1 className="text-[1em] md:text-3xl lg:text-5xl xl:text-7xl font-extrabold leading-tight tracking-tighter bg-gradient-to-r from-[#8750f7] to-white bg-clip-text text-transparent">
-            Web Developer +<br />UX Designer
+            MERN Stack Developer
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-md leading-relaxed">
-            I break down complex user experience problems to create integrity focussed solutions that connect billions of people
+            MERN Stack developer focused on building modern, responsive, and scalable web applications. I have a hands-on, project-driven learning mindset with practical experience building real-world apps using MongoDB, Express, React, and Node.js.
           </p>
 
           <div className="flex max-lg:flex-col items-start lg:items-center gap-6 pt-4">
@@ -25,10 +25,9 @@ const Hero = () => {
             </a>
 
             <div className="flex gap-3">
-              <div className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">f</div>
-              <div className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">in</div>
-              <div className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">G</div>
-              <div className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">in</div>
+              <a href="https://hassan-ali-dev.vercel.app" target="_blank" rel="noreferrer" className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">P</a>
+              <a href="https://github.com/mrhassanali667" target="_blank" rel="noreferrer" className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">GH</a>
+              <a href="https://www.linkedin.com/in/hassan-ali-abb517386/" target="_blank" rel="noreferrer" className="w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] hover:text-white cursor-pointer transition-all">in</a>
             </div>
           </div>
         </div>

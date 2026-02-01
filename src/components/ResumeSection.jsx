@@ -2,17 +2,16 @@ import React from 'react';
 import { FaGraduationCap, FaMedal } from 'react-icons/fa';
 
 const experienceData = [
-    { year: '2022 - Present', title: 'LEAD DEVELOPER', place: 'Blockdots, London' },
-    { year: '2021 - 2022', title: 'FULL STACK WEB DEVELOPER', place: 'Parsons, The New School' },
-    { year: '2020 - 2021', title: 'UI DESIGNER', place: 'House of Life, Leeds' },
-    { year: '2018 - 2020', title: 'JUNIOR GRAPHICS DESIGNER', place: 'Theme Junction, Bursa' },
+    {
+        year: 'Dec 2024 - Jan 2026',
+        title: 'Web and App Development (MERN Stack) — Training',
+        place: 'Saylani Mass IT Training (SMIT) — Hands-on learning with real-world project practice using MongoDB, Express, React, and Node.js'
+    },
 ];
 
 const educationData = [
-    { year: '2020 - 2023', title: 'PROGRAMMING COURSE', place: 'Harvard University' },
-    { year: '2016 - 2020', title: 'GRAPHIC DESIGN COURSE', place: 'University of Denmark' },
-    { year: '2012 - 2015', title: 'WEB DESIGN COURSE', place: 'University of California' },
-    { year: '2010 - 2011', title: 'DESIGN & TECHNOLOGY', place: 'Parsons, The New School' },
+    { year: 'Matriculation', title: 'Karachi Board of Secondary Education (BSEK)', place: 'Completed' },
+    { year: 'First Year (Pre-Engineering)', title: 'Board of Intermediate Education Karachi (BIEK)', place: 'Ongoing' },
 ];
 
 const ResumeSection = () => {
