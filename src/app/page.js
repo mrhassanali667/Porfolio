@@ -1,7 +1,11 @@
 'use client'
 
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero.jsx";
+import Navbar from "@/components/Navbar.jsx";
+import ResumeSection from "@/components/ResumeSection.jsx";
+import Services from "@/components/Services.jsx";
+import Skills from "@/components/Skills.jsx";
+import Work from "@/components/Work.jsx";
 
 import Image from "next/image";
 
@@ -15,6 +19,10 @@ export default function Home() {
 
           <Navbar />
           <Hero />
+          <Services />
+          <Work />
+          <ResumeSection />
+          <Skills />
         </div>
 
       </main>
