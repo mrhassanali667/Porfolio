@@ -61,7 +61,7 @@ const Navbar = () => {
                     {/* Custom Hamburger Menu (Image Style) */}
                     <button
                         onClick={() => setIsOpen(!isOpen)}
-                        className="flex flex-col items-end gap-1.5 cursor-pointer group z-[110]"
+                        className="lg:hidden flex flex-col items-end gap-1.5 cursor-pointer group z-[110]"
                     >
                         <div className={`h-[3px] bg-white rounded-full transition-all duration-300 ${isOpen ? 'w-8 rotate-45 translate-y-2' : 'w-7'}`}></div>
                         <div className={`h-[3px] bg-white rounded-full transition-all duration-300 ${isOpen ? 'opacity-0' : 'w-9'}`}></div>
@@ -77,7 +77,7 @@ const Navbar = () => {
                             animate={{ opacity: 1, x: 0 }}
                             exit={{ opacity: 0, x: '100%' }}
                             transition={{ type: 'tween', duration: 0.4 }}
-                            className="fixed inset-0 bg-[#050709] z-[105] flex flex-col items-center justify-center p-10 lg:hidden"
+                            className="h-screen w-screen fixed inset-0 bg-[#050709] z-[105] flex flex-col items-center justify-center p-10 lg:hidden"
                         >
                             <ul className="flex flex-col items-center gap-6">
                                 {navLinks.map((link, i) => (
