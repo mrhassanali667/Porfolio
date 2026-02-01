@@ -17,7 +17,7 @@ const educationData = [
 
 const ResumeSection = () => {
     return (
-        <div className="bg-[#050709] min-h-screen text-white py-20 px-4 md:px-10 font-sans">
+        <div id="resume" className="bg-[#050709] min-h-screen text-white py-20 px-4 md:px-10 font-sans">
             <div className="max-w-7xl mx-auto flex flex-wrap gap-16 lg:gap-24">
 
                 {/* My Experience Column */}

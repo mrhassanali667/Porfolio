@@ -47,7 +47,7 @@ const Work = () => {
     // Filter state aur logic yahan se hta di gayi hai
 
     return (
-        <div className="bg-[#0f0715] min-h-screen text-white py-20 px-4 md:px-8 font-sans relative">
+        <div id="works" className="bg-[#0f0715] min-h-screen text-white py-20 px-4 md:px-8 font-sans relative overflow-hidden">
             <div className="absolute top-[20%] right-[20%] w-[800px] h-[800px] bg-[#2a1454] opacity-70 blur-[140px] rounded-full"></div>
 
             <div className="max-w-7xl mx-auto">

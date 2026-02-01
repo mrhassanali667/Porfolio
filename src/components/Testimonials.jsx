@@ -19,7 +19,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <div className="bg-[#050709] text-white py-24 px-6 md:px-12 font-sans overflow-hidden">
+        <div id="testimonials" className="bg-[#050709] text-white py-24 px-6 md:px-12 font-sans overflow-hidden">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-16">
 
                 {/* Left Side: Heading */}

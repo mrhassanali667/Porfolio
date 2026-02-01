@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const ContactSection = () => {
     return (
-        <div className="bg-[#050709] text-white py-20 px-6 md:px-12 font-sans">
+        <div id="contact" className="bg-[#050709] text-white py-20 px-6 md:px-12 font-sans">
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16 items-start">
 
                 {/* Left Side: Contact Form Card */}

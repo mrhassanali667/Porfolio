@@ -26,7 +26,7 @@ const Services = () => {
     ];
 
     return (
-        <div className="bg-[#050709] text-white py-20 px-4 font-sans">
+        <div id="services" className="bg-[#050709] text-white py-20 px-4 font-sans">
             <div className="max-w-6xl mx-auto text-center mb-12">
                 <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-white bg-clip-text text-transparent mb-4">
                     My Quality Services

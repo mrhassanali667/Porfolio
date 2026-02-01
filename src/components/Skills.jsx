@@ -17,7 +17,7 @@ const skillsData = [
 
 const Skills = () => {
     return (
-        <div className="bg-[#050709] min-h-screen text-white py-20 px-4 flex flex-col items-center font-sans">
+        <div id="skills" className="bg-[#050709] min-h-screen text-white py-20 px-4 flex flex-col items-center font-sans">
             {/* Heading Section */}
             <div className="text-center max-w-2xl mb-16">
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-white bg-clip-text text-transparent">
