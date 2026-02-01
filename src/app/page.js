@@ -2,6 +2,7 @@
 
 import Blogs from "@/components/Blog.jsx";
 import ContactSection from "@/components/Contact.jsx";
+import Footer from "@/components/Footer.jsx";
 import Hero from "@/components/Hero.jsx";
 import Navbar from "@/components/Navbar.jsx";
 import ResumeSection from "@/components/ResumeSection.jsx";
@@ -29,7 +30,9 @@ export default function Home() {
         <Testimonials />
         <Blogs />
         <ContactSection />
+        <Footer />
       </main>
+
     </div>
   );
 }
