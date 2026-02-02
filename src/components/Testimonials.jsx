@@ -6,14 +6,14 @@ const testimonials = [
         name: "Tim Bailey",
         role: "SEO Specialist, Theme Junction",
         image: "https://randomuser.me/api/portraits/men/32.jpg", // Replace with real image
-        text: "“Taylor is a professional Designer he really helps my business by providing value to my business.”"
+        text: "Hassan is a professional Devepoler he really helps my business by providing value to my business.”"
     },
     {
         id: 2,
         name: "Brandon Fraser",
         role: "Senior Software Dev, Cosmic Sport",
         image: "https://randomuser.me/api/portraits/men/44.jpg", // Replace with real image
-        text: "“Taylor is a professional Designer he really helps my business by providing value to my business.”"
+        text: "Hassan is a professional Developer he really helps my business by providing value to my business.”"
     }
 ];
 

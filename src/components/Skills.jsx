@@ -1,6 +1,8 @@
+'use client';
+
 import React from 'react';
 import {
-    FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs
+    FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
 } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiExpress } from 'react-icons/si';
 
@@ -10,6 +12,7 @@ const skillsData = [
     { name: 'JavaScript', percentage: '92%', icon: <FaJs className="text-[#F7DF1E]" /> },
     { name: 'TypeScript', percentage: '85%', icon: <SiTypescript className="text-[#3178C6]" /> },
     { name: 'React', percentage: '90%', icon: <FaReact className="text-[#61DAFB]" /> },
+    { name: 'React Native', percentage: '75%', icon: <FaReact className="text-[#61DAFB]" /> },
     { name: 'Next.js', percentage: '88%', icon: <SiNextdotjs className="text-white" /> },
     { name: 'Node.js', percentage: '82%', icon: <FaNodeJs className="text-[#339933]" /> },
     { name: 'Express', percentage: '80%', icon: <SiExpress className="text-white" /> },
@@ -33,8 +36,8 @@ const Skills = () => {
                 {skillsData.map((skill, index) => (
                     <div key={index} className="flex flex-col items-center group cursor-pointer">
                         {/* Skill Card */}
-                        <div className="w-32 h-36 md:w-36 md:h-44 bg-[#140c1c] rounded-3xl flex flex-col items-center justify-center gap-4 transition-all duration-500 border border-transparent 
-              group-hover:border-[#8750f7] group-hover:bg-[#2a1454] shadow-2xl overflow-hidden">
+                        <div className={`w-32 h-36 md:w-36 md:h-44 bg-[#140c1c] rounded-3xl flex flex-col items-center justify-center gap-4 transition-all duration-500 border border-transparent 
+              group-hover:border-[#8750f7] group-hover:bg-[#2a1454] shadow-2xl overflow-hidden`}>
 
                             {/* Icon Logic: Default Grayscale, Hover per Colorfull */}
                             <div className="text-5xl md:text-6xl filter grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-110">

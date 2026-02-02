@@ -54,7 +54,7 @@ const Navbar = () => {
 
                 {/* Action Buttons & Hamburger */}
                 <div className="flex items-center gap-6">
-                    <a href="#" className="hidden sm:block px-8 py-3 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-[15px] hover:shadow-[0_0_20px_rgba(135,80,247,0.4)] transition-all duration-300 active:scale-95">
+                    <a href="#contact" className="hidden sm:block px-8 py-3 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-[15px] hover:shadow-[0_0_20px_rgba(135,80,247,0.4)] transition-all duration-300 active:scale-95">
                         Hire me!
                     </a>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
                                 transition={{ delay: 0.6 }}
                                 className="mt-12"
                             >
-                                <a href="#" className="px-10 py-4 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-lg shadow-xl">
+                                <a href="#contact" className="px-10 py-4 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-lg shadow-xl">
                                     Hire me!
                                 </a>
                             </motion.div>

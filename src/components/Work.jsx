@@ -65,11 +65,11 @@ const Work = () => {
                          w-full md:w-[calc(50%-1rem)] lg:w-[calc(50%-1.5rem)]`}
                         >
                             {/* Project Image */}
-                            <div className="w-[90%] overflow-hidden">
+                            <div className="w-full flex justify-center items-center overflow-hidden">
                                 <img
                                     src={"/images/image.jpg"}
                                     alt={project.title}
-                                    className="w-full h-auto object-cover transform transition-transform duration-500 group-hover:scale-105"
+                                    className="w-[90%] h-auto object-cover transform transition-transform duration-500 group-hover:scale-105"
                                 />
                             </div>
 

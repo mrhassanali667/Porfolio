@@ -30,7 +30,7 @@ const Footer = () => {
                 {/* Copyright Section */}
                 <div className="text-center mt-4">
                     <p className="text-gray-500 text-sm tracking-wide">
-                        © 2026 All Rights Reserved by <span className="text-[#8750f7] font-medium cursor-pointer hover:underline">ThemeJunction</span>
+                        © 2026 All Rights Reserved by <span className="text-[#8750f7] font-medium cursor-pointer hover:underline">Hassan Ali</span>
                     </p>
                 </div>
 
