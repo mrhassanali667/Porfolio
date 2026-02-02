@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* Logo Section */}
                 <div className="flex items-center justify-center">
                     <div className="w-16 h-16 flex items-center justify-center rounded-full">
-                        {/* Logo Image or SVG */}
+                        {/* Logo Image */}
                         <img src="/images/logo.png" alt="" />
                     </div>
                 </div>

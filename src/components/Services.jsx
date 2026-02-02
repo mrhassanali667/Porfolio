@@ -57,7 +57,7 @@ const Services = () => {
                             </div>
 
                             {/* Description */}
-                            <div className="text-gray-400 group-hover:text-white transition-colors duration-300 flex-[2] text-sm md:text-base px-0 md:px-10 mb-4 md:mb-0">
+                            <div className="text-gray-400 group-hover:text-white transition-colors duration-300 flex-[2] max-md:text-center text-sm md:text-base px-0 md:px-10 mb-4 md:mb-0">
                                 {service.desc}
                             </div>
 

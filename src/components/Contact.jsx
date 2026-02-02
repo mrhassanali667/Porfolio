@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const ContactSection = () => {
     return (
-        <div id="contact" className="bg-[#050709] text-white py-20 px-6 md:px-12 font-sans">
+        <div id="contact" className="bg-[#050709] text-white py-20 px-6 md:px-12 font-sans text-wrap">
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16 items-start">
 
                 {/* Left Side: Contact Form Card */}
@@ -65,29 +65,29 @@ const ContactSection = () => {
 
                     {/* Phone */}
                     <div className="flex items-center gap-5 group">
-                        <div className="w-12 h-12 rounded-full bg-gradient-to-b from-[#8750f7] to-[#2a1454] flex items-center justify-center text-white text-xl shadow-lg group-hover:scale-110 transition-transform">
+                        <div className="min-w-12 h-12 rounded-full bg-gradient-to-b from-[#8750f7] to-[#2a1454] flex items-center justify-center text-white text-xl shadow-lg group-hover:scale-110 transition-transform">
                             <FaPhoneAlt size={18} />
                         </div>
                         <div>
                             <p className="text-gray-400 text-sm">Phone</p>
-                            <a href='tel:03193588038' className="text-lg font-bold hover:text-[#8750f7] transition-colors cursor-pointer">+92 319 3588038</a>
+                            <a href='tel:03193588038' className=" text-lg font-bold hover:text-[#8750f7] transition-colors cursor-pointer">+92 319 3588038</a>
                         </div>
                     </div>
 
                     {/* Email */}
                     <div className="flex items-center gap-5 group">
-                        <div className="w-12 h-12 rounded-full bg-gradient-to-b from-[#8750f7] to-[#2a1454] flex items-center justify-center text-white text-xl shadow-lg group-hover:scale-110 transition-transform">
+                        <div className="min-w-12 h-12 rounded-full bg-gradient-to-b from-[#8750f7] to-[#2a1454] flex items-center justify-center text-white text-xl shadow-lg group-hover:scale-110 transition-transform">
                             <FaEnvelope size={18} />
                         </div>
                         <div>
                             <p className="text-gray-400 text-sm">Email</p>
-                            <a href='mailto:mrhassanali667@gmail.com' className="text-lg font-bold hover:text-[#8750f7] transition-colors cursor-pointer">mrhassanali667@gmail.com</a>
+                            <a href='mailto:mrhassanali667@gmail.com' className="break-all text-lg font-bold hover:text-[#8750f7] transition-colors cursor-pointer">mrhassanali667@gmail.com</a>
                         </div>
                     </div>
 
                     {/* Address */}
                     <div className="flex items-center gap-5 group">
-                        <div className="w-12 h-12 rounded-full bg-gradient-to-b from-[#8750f7] to-[#2a1454] flex items-center justify-center text-white text-xl shadow-lg group-hover:scale-110 transition-transform">
+                        <div className="min-w-12 h-12 rounded-full bg-gradient-to-b from-[#8750f7] to-[#2a1454] flex items-center justify-center text-white text-xl shadow-lg group-hover:scale-110 transition-transform">
                             <FaMapMarkerAlt size={18} />
                         </div>
                         <div>
