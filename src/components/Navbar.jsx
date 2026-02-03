@@ -26,12 +26,12 @@ const Navbar = () => {
     ];
 
     return (
-        <header className={`fixed top-0 left-0 w-full z-[100] transition-all duration-300 ${scrolled ? 'bg-[#050709]/80 backdrop-blur-md py-3 shadow-lg' : 'bg-transparent py-6'
+        <header className={`fixed top-0 left-0 w-full z-[100] box-border transition-all duration-300 ${scrolled ? 'bg-[#050709]/80 backdrop-blur-md py-3 shadow-lg' : 'bg-transparent py-8'
             }`}>
-            <nav className="max-w-[1400px] mx-auto flex items-center justify-between px-6 lg:px-12">
+            <nav className="max-w-[1400px] w-full mx-auto flex items-center justify-between px-6 lg:px-9">
 
                 {/* Logo & Email Section */}
-                <div className="flex items-center gap-4 group">
+                <div className="flex items-center gap-2 group">
                     <div className="w-12 h-12 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                         <img src="/images/logo.png" alt="logo" className="w-full h-full object-contain" />
                     </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Desktop Navigation Links */}
-                <ul className="hidden lg:flex items-center gap-8">
+                <ul className="hidden lg:flex items-center gap-7 ">
                     {navLinks.map((link) => (
                         <li key={link.name}>
                             <a href={link.href} className="text-[15px] font-bold text-white hover:text-[#8750f7] transition-all duration-300 relative group">
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                 {/* Action Buttons & Hamburger */}
                 <div className="flex items-center gap-6">
-                    <a href="#contact" className="hidden sm:block px-8 py-3 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-[15px] hover:shadow-[0_0_20px_rgba(135,80,247,0.4)] transition-all duration-300 active:scale-95">
+                    <a href="#contact" className=" px-8 py-3 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-[15px] hover:shadow-[0_0_20px_rgba(135,80,247,0.4)] transition-all duration-300 active:scale-95">
                         Hire me!
                     </a>
 
@@ -97,16 +97,6 @@ const Navbar = () => {
                                     </motion.li>
                                 ))}
                             </ul>
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ delay: 0.6 }}
-                                className="mt-12"
-                            >
-                                <a href="#contact" className="px-10 py-4 rounded-full bg-gradient-to-r from-[#8750f7] to-[#2a1454] text-white font-bold text-lg shadow-xl">
-                                    Hire me!
-                                </a>
-                            </motion.div>
                         </motion.div>
                     )}
                 </AnimatePresence>

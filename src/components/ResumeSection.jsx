@@ -16,11 +16,11 @@ const educationData = [
 
 const ResumeSection = () => {
     return (
-        <div id="resume" className="bg-[#050709] min-h-screen w-full text-white py-20 px-4 md:px-10 font-sans">
+        <div id="resume" className="bg-[#050709] box-border min-h-screen w-full text-white py-20 px-4 md:px-10 font-sans">
             <div className="max-w-7xl mx-auto flex flex-wrap gap-16 lg:gap-24">
 
                 {/* My Experience Column */}
-                <div className="flex-1 min-w-[315px]">
+                <div className="flex-1 min-w-[300px]">
                     <div className="flex items-center gap-4 mb-10">
                         <FaMedal className="text-purple-500 text-3xl" />
                         <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-white bg-clip-text text-transparent">
@@ -28,7 +28,7 @@ const ResumeSection = () => {
                         </h2>
                     </div>
 
-                    <div className="flex flex-col gap-6">
+                    <div className="flex items-center flex-col gap-6">
                         {experienceData.map((item, index) => (
                             <div
                                 key={index}
@@ -49,7 +49,7 @@ const ResumeSection = () => {
                 </div>
 
                 {/* My Education Column */}
-                <div className="flex-1 min-w-[315px]">
+                <div className="flex-1 min-w-[300px]">
                     <div className="flex items-center gap-4 mb-10">
                         <FaGraduationCap className="text-purple-500 text-4xl" />
                         <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-white bg-clip-text text-transparent">
