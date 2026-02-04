@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
 
           <div className="flex max-lg:flex-col items-start lg:items-center gap-6 pt-4">
-            <a href='./files/Muhammad_Raza_CV[1].pdf' target='_blank' className="px-8 py-3 border-2 border-[#8750f7] text-[#8750f7] rounded-full font-bold cursor-pointer hover:bg-[#8750f7] hover:text-white transition-all duration-300 flex items-center gap-2">
+            <a href='./files/Hassan_Ali.pdf' target='_blank' className="px-8 py-3 border-2 border-[#8750f7] text-[#8750f7] rounded-full font-bold cursor-pointer hover:bg-[#8750f7] hover:text-white transition-all duration-300 flex items-center gap-2">
               Download CV <span className="text-lg">↓</span>
             </a>
 
