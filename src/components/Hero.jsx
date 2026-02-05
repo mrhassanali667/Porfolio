@@ -40,7 +40,7 @@ const Hero = () => {
                 />
               </svg>
               </a>
-              <a href="https://www.linkedin.com/in/hassan-ali-abb517386/" target="_blank" rel="noreferrer" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
+              <a href="https://www.linkedin.com/in/mrhassanali667/" target="_blank" rel="noreferrer" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
                 <svg
                   className="w-6 h-6 text-[#8750f7] group-hover:text-white"
                   aria-hidden="true"
