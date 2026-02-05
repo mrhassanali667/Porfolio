@@ -24,7 +24,7 @@ const Hero = () => {
             </a>
 
             <div className="flex gap-3">
-              <a href="https://github.com/mrhassanali667" target="_blank" rel="noreferrer" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all"><svg
+              <a href="https://github.com/mrhassanali667" target="_blank" rel="noreferrer"   aria-label="Visit my GitHub profile" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all"><svg
                 className="w-6 h-6 text-[#8750f7] group-hover:text-white"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const Hero = () => {
                 />
               </svg>
               </a>
-              <a href="https://www.linkedin.com/in/mrhassanali667/" target="_blank" rel="noreferrer" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
+              <a href="https://www.linkedin.com/in/mrhassanali667/" target="_blank" rel="noreferrer" aria-label="Visit my LinkedIn profile" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
                 <svg
                   className="w-6 h-6 text-[#8750f7] group-hover:text-white"
                   aria-hidden="true"
@@ -59,7 +59,7 @@ const Hero = () => {
                 </svg>
 
               </a>
-              <a href="https://www.facebook.com/profile.php?id=61559818206492" target="_blank" rel="noreferrer" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
+              <a href="https://www.facebook.com/profile.php?id=61559818206492" target="_blank" rel="noreferrer" aria-label="Visit my Facebook profile" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
                 <svg
                   className="w-6 h-6 text-[#8750f7] group-hover:text-white"
                   aria-hidden="true"
@@ -78,7 +78,7 @@ const Hero = () => {
 
 
               </a>
-              <a href="https://wa.me/923193588038?text=Hello%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20opportunity." target="_blank" rel="noreferrer" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
+              <a href="https://wa.me/923193588038?text=Hello%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project%20opportunity." target="_blank" rel="noreferrer" aria-label="Send me a WhatsApp message" className="group w-10 h-10 border border-[#8750f7] rounded-full flex items-center justify-center text-[#8750f7] hover:bg-[#8750f7] cursor-pointer transition-all">
                 <svg
                   className="w-6 h-6 text-[#8750f7] group-hover:text-white"
                   aria-hidden="true"
