@@ -5,23 +5,23 @@ const Services = () => {
     const services = [
         {
             id: "01",
-            title: "Web Development",
-            desc: "Conducting qualitative and quantitative research to understand user needs, behaviors, and pain points. Utilizing methods...",
+            title: "Web Full Stack Web Development",
+            desc: "End-to-end MERN web applications with scalable backend, clean frontend, and optimized performance.",
         },
         {
             id: "02",
-            title: "UI/UX Design",
-            desc: "Conducting qualitative and quantitative research to understand user needs, behaviors, and pain points. Utilizing methods...",
+            title: "Frontend Development (React / Next.js)",
+            desc: "Modern, responsive, SEO-friendly user interfaces built with React, Next.js, and Tailwind CSS.",
         },
         {
             id: "03",
-            title: "Content Writing",
-            desc: "Conducting qualitative and quantitative research to understand user needs, behaviors, and pain points. Utilizing methods...",
+            title: "Backend & API Development",
+            desc: "Secure REST APIs with authentication, database integration, and efficient server-side business logic.",
         },
         {
             id: "04",
-            title: "Digital Marketing",
-            desc: "Conducting qualitative and quantitative research to understand user needs, behaviors, and pain points. Utilizing methods...",
+            title: "Real-Time Applications",
+            desc: "Real-time chat, notifications, and live updates using Socket.io for seamless user interaction.",
         },
     ];
 
