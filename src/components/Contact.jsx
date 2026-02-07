@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const ContactSection = () => {
     return (
-        <div id="contact" className="bg-[#050709] text-white py-20 px-6 md:px-12 font-sans text-wrap">
+        <div id="contact" className="bg-[#050709] text-white py-10 md:py-50 px-6 md:px-12 font-sans text-wrap">
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-16 items-start">
 
                 {/* Left Side: Contact Form Card */}
@@ -40,13 +40,6 @@ const ContactSection = () => {
                                 className="w-full bg-[#050709] border border-gray-800 rounded-lg px-4 py-3 text-sm focus:border-[#8750f7] outline-none transition-all"
                             />
                         </div>
-
-                        <select className="w-full bg-[#050709] border border-gray-800 rounded-lg px-4 py-3 text-sm text-gray-400 focus:border-[#8750f7] outline-none transition-all appearance-none">
-                            <option>—Please choose an option—</option>
-                            <option>Web Design</option>
-                            <option>UI/UX Design</option>
-                            <option>App Development</option>
-                        </select>
 
                         <textarea
                             placeholder="Message"

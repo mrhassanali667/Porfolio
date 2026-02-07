@@ -110,7 +110,7 @@ const Hero = () => {
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-b from-[#2a1454] to-[#8750f7] rounded-[30px] rotate-4 group-hover:rotate-0 transition-transform duration-500"></div>
             <div className="relative max-h-[470px] max-w-[400px] lg:max-h-[470px] lg:max-w-[500px] bg-[#0f0715] rounded-[30px] overflow-hidden  rotate-4 border-transparent w-[300px] h-[380px] md:w-[400px] md:h-[500px] group-hover:rotate-0 transition-transform duration-500">
-              <Image src={HeroImage} sizes='' alt="Hero Image" layout="fill" objectFit="cover" />
+              <Image src={HeroImage} alt="Hero Image" layout="fill" objectFit="cover" placeholder='blur' blurDataURL={HeroImage.blurDataURL} />
             </div>
           </div>
         </div>

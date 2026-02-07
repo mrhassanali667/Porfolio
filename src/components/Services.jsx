@@ -47,12 +47,12 @@ const Services = () => {
 
                         <div className="relative z-10 flex flex-col md:flex-row items-center py-8 px-6 transition-colors duration-300">
                             {/* Service Number */}
-                            <div className="text-xl font-bold text-white mr-8 mb-4 md:mb-0">
+                            <div className="text-xl font-bold text-white md:mr-8 mb-4 md:mb-0">
                                 {service.id}
                             </div>
 
                             {/* Title */}
-                            <div className="text-2xl md:text-3xl font-bold flex-1">
+                            <div className="text-2xl max-md:text-center md:text-3xl font-bold flex-1">
                                 {service.title}
                             </div>
 

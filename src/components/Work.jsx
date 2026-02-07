@@ -74,8 +74,8 @@ const Work = () => {
                             </div>
 
                             {/* Purple Hover Box */}
-                            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-purple-600 to-purple-800
-                          translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out p-6 md:p-8 z-10">
+                            <div className={`absolute inset-x-0 bottom-0 bg-gradient-to-r from-purple-600 to-purple-800
+                          translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out p-6 md:p-8 z-10}`}>
                                 <div className="flex justify-between items-center mb-2">
                                     <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">{project.hoverTitle}</h3>
                                     <svg
